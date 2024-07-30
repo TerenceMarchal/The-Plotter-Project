@@ -9,6 +9,8 @@ The software handles two steps that are independent:
 1. Convert an image into drawing instructions
 2. Stream the drawing instructions to a drawing machine
 
+You can watch a short introduction here: https://youtu.be/2gvqSbXmRnE
+
 ## Features
 ### Image processing
 - Color quantization
