@@ -1,0 +1,52 @@
+{
+  "id_selected_brush_palette": 0,
+  "nb_levels_per_color": 3,
+  "outline_lpmm": 4,
+  "brush_palettes": [
+    {
+      "brushes": []
+    },
+    {
+      "brushes": []
+    },
+    {
+      "brushes": []
+    },
+    {
+      "brushes": []
+    },
+    {
+      "brushes": []
+    },
+    {
+      "brushes": []
+    },
+    {
+      "brushes": []
+    },
+    {
+      "brushes": []
+    }
+  ],
+  "min_segment_length": 0,
+  "blurring_intensity": 1,
+  "canny_low_threshold": 0.5,
+  "output_mirroring": 3,
+  "image_dpi": 150,
+  "enable_thick_outlining": false,
+  "color_attribution_method": 1,
+  "color_space": 1,
+  "nb_quantization_colors": 16,
+  "output_rotation": 0,
+  "color_quantization_method": 1,
+  "clear_z_height": 4,
+  "multicolor_thick_outlining": false,
+  "lpmm_max": 4,
+  "pen_tip_diameter": 0.25,
+  "color_selection_method": 0,
+  "grey_saturation_threshold": 0.25,
+  "blurring_radius": 1,
+  "output_position": 1,
+  "enable_fine_outlining": false,
+  "canny_high_threshold": 1
+}

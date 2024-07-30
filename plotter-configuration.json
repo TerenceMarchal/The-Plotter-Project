@@ -1,0 +1,105 @@
+{
+	"xy_acceleration": 200,
+	"z_acceleration": 250,
+	"flying_xy_max_speed": 40,
+	"z_max_speed": 25,
+	"reachable_area_width": 255,
+	"reachable_area_height": 300,
+
+	"is_core_xy": true,
+	"drawing_xy_max_speed": 40,
+	"jog_speed": 40,
+	
+	"drawing_area_width": 210,
+	"drawing_area_height": 297,
+	"drawing_area_x": 15,
+	"drawing_area_y": -15,
+	"parking_x": 0,
+	"parking_y": 0,
+	"parking_z": 10,
+	
+	"inks":
+	[
+	{
+		"name": "black",
+		"color": "#342A28",
+	},
+	{
+		"name": "red",
+		"color": "#ED0C0E",
+	},
+	{
+		"name": "green",
+		"color": "#0EA16C",
+	},
+	{
+		"name": "blue",
+		"color": "#1E42B0",
+	},
+	{
+		"name": "light blue",
+		"color": "#1ABBE8",
+	},
+	{
+		"name": "pink",
+		"color": "#F09FC0",
+	},
+	{
+		"name": "purple",
+		"color": "#430944",
+	}
+	],
+	
+	"tools":
+	[
+		{
+			"ink": "black",
+			"parking_x": 13,
+			"parking_y": 7,
+			"loading_instructions":"G90\nF1000\nG1 X13 Y37 Z3\nG1 Y7\nG1 Z25\nG4P0;TOOL:3418664\nG1 Y37\n",
+			"unloading_instructions":"G90\nF1000\nG1 X13 Y37 Z25\nG1 Y7\nG1 Z3\nG4P0;TOOL:-1\nG1 Y37\n",
+		},
+		{
+			"ink": "red",
+			"parking_x": 44,
+			"parking_y": 7,
+			"loading_instructions":"G90\nF1000\nG1 X44 Y37 Z3\nG1 Y7\nG1 Z25\nG4P0;TOOL:15535118\nG1 Y37\n",
+			"unloading_instructions":"G90\nF1000\nG1 X44 Y37 Z25\nG1 Y7\nG1 Z3\nG4P0;TOOL:-1\nG1 Y37\n",
+		},
+		{
+			"ink": "green",
+			"parking_x": 75,
+			"parking_y": 7,
+			"loading_instructions":"G90\nF1000\nG1 X73 Y37 Z3\nG1 Y7\nG1 Z25\nG4P0;TOOL:958828\nG1 Y37\n",
+			"unloading_instructions":"G90\nF1000\nG1 X73 Y37 Z25\nG1 Y7\nG1 Z3\nG4P0;TOOL:-1\nG1 Y37\n",
+		},
+		{
+			"ink": "blue",
+			"parking_x": 106,
+			"parking_y": 7,
+			"loading_instructions":"G90\nF1000\nG1 X106 Y37 Z3\nG1 Y7\nG1 Z25\nG4P0;TOOL:1983152\nG1 Y37\n",
+			"unloading_instructions":"G90\nF1000\nG1 X106 Y37 Z25\nG1 Y7\nG1 Z3\nG4P0;TOOL:-1\nG1 Y37\n",
+		},
+		{
+			"ink": "light blue",
+			"parking_x": 144,
+			"parking_y": 7,
+			"loading_instructions":"G90\nF1000\nG1 X144 Y37 Z3\nG1 Y7\nG1 Z25\nG4P0;TOOL:1752040\nG1 Y37\n",
+			"unloading_instructions":"G90\nF1000\nG1 X144 Y37 Z25\nG1 Y7\nG1 Z3\nG4P0;TOOL:-1\nG1 Y37\n",
+		},
+		{
+			"ink": "pink",
+			"parking_x": 175,
+			"parking_y": 7,
+			"loading_instructions":"G90\nF1000\nG1 X175 Y37 Z3\nG1 Y7\nG1 Z25\nG4P0;TOOL:15769536\nG1 Y37\n",
+			"unloading_instructions":"G90\nF1000\nG1 X175 Y37 Z25\nG1 Y7\nG1 Z3\nG4P0;TOOL:-1\nG1 Y37\n",
+		},
+		{
+			"ink": "purple",
+			"parking_x": 206,
+			"parking_y": 7,
+			"loading_instructions":"G90\nF1000\nG1 X206 Y37 Z3\nG1 Y7\nG1 Z25\nG4P0;TOOL:4393284\nG1 Y37\n",
+			"unloading_instructions":"G90\nF1000\nG1 X206 Y37 Z25\nG1 Y7\nG1 Z3\nG4P0;TOOL:-1\nG1 Y37\n",
+		}
+	]
+}

@@ -1,0 +1,9 @@
+*.gcode
+/bin
+/.settings
+.classpath
+.project
+expectedVsRealDurations.csv
+/data/videos/
+/documentation/
+.last-config.json
